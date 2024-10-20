@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #d6e4e4;
+}
+
+.yoga-cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 40rem);
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.yoga-type {
+  display: block;
+  font-size: 3rem;
+  color: #fff;
+  width: 100%;
+  /* background-color: #fff; */
+  background-color: #387e86;
+  border-radius: 2.2rem;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  text-align: center;
+}

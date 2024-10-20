@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #d6e4e4;
+}
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+video {
+  border: 2px solid #333;
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+}
+
+.main-screen {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 50rem);
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.img {
+  width: 200%;
+}
